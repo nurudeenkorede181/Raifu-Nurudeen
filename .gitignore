@@ -1,0 +1,38 @@
+# Sensitive files
+*.key
+*.pem
+*.pfx
+*.p12
+
+# Credentials and secrets
+.env
+.env.local
+secrets/
+credentials/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Node modules (if using any Node tools)
+node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Temporary files
+tmp/
+temp/
+*.tmp
